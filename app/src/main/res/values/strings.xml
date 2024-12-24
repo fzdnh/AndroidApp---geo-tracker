@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Smart FloodWatch</string>
+    <string name="login">Login</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="register">Register</string>
+    <string name="click_to_login">Click to login</string>
+    <string name="click_to_register">Click to register</string>
+    <string name="logout">Logout</string>
+    <string name="check_activity">Check Activity</string>
+    <string name="submit_rescue">Submit Rescue</string>
+    <string name="details">Details</string>
+    <string name="submit">Submit</string>
+    <string name="click_to_return_to_menu">Click to return to menu</string>
+    <string name="enter_number_of_people">Enter number of people</string>
+    <string name="return_to_menu">Return to menu</string>
+    <string name="check_map">Check Map</string>
+    <string name="click_to_enter_as_guest">Click to enter as guest</string>
+    <string name="username">Username</string>
+    <string name="phone_number">Phone Number</string>
+</resources>

@@ -1,0 +1,13 @@
+<!-- res/drawable/clicked_button_background.xml -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <solid android:color="#4567A8" /> <!-- Change this color to your desired darker color -->
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#5B6BF5" /> <!-- Default color when not pressed -->
+        </shape>
+    </item>
+</selector>

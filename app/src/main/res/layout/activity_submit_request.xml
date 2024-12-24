@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".SubmitRequest"
+    android:background="@drawable/img">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textViewRescue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:text="RESCUE"
+                android:textColor="@android:color/white"
+                android:textSize="23sp"
+                android:textStyle="bold" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="355dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:layout_gravity="center_horizontal"
+                app:cardCornerRadius="30dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="130dp"
+                    android:layout_marginTop="10dp"
+                    android:text="DETAILS"
+                    android:textColor="@android:color/darker_gray"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="80dp"
+                    android:layout_marginTop="45dp"
+                    android:text="NUMBER OF PEOPLE"
+                    android:textColor="#5B6BF5"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <Button
+                    android:id="@+id/numofpeople1_2"
+                    android:layout_width="130dp"
+                    android:layout_height="50dp"
+                    android:layout_marginHorizontal="40dp"
+                    android:layout_marginTop="70dp"
+                    android:backgroundTint="#5B6BF5"
+                    android:text="1 - 2 "
+                    android:textColor="@color/white"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/numofpeople3_5"
+                    android:layout_width="130dp"
+                    android:layout_height="50dp"
+                    android:layout_marginHorizontal="185dp"
+                    android:layout_marginTop="70dp"
+                    android:backgroundTint="#5B6BF5"
+                    android:text="3 - 5 "
+                    android:textColor="@color/white"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/numofpeople6_10"
+                    android:layout_width="130dp"
+                    android:layout_height="50dp"
+                    android:layout_marginHorizontal="40dp"
+                    android:layout_marginTop="120dp"
+                    android:backgroundTint="#5B6BF5"
+                    android:text="6 - 10"
+                    android:textColor="@color/white"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+
+                <Button
+                    android:id="@+id/numofpeople11plus"
+                    android:layout_width="130dp"
+                    android:layout_height="50dp"
+                    android:layout_marginHorizontal="185dp"
+                    android:layout_marginTop="120dp"
+                    android:backgroundTint="#5B6BF5"
+                    android:text="11 AND MORE"
+                    android:textColor="@color/white"
+                    android:textSize="12dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="125dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="120dp"
+                    android:layout_marginTop="180dp"
+                    android:text="DESCRIPTION"
+                    android:textColor="#5B6BF5"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/description"
+                    android:layout_width="300dp"
+                    android:layout_height="120dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="210dp"
+                    android:hint="Describe of location (eg.brown house, big tree)" />
+
+                <Button
+                    android:id="@+id/btn_map"
+                    android:layout_width="88dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="138dp"
+                    android:layout_marginTop="330dp"
+                    android:backgroundTint="#5B6BF5 "
+                    android:text="MAP"
+                    android:textColor="@color/white"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/addressTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="380dp"
+                    android:text="Address: "
+                    android:textColor="#5B6BF5"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/latitudeTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="450dp"
+                    android:text="Latitude: "
+                    android:textColor="#5B6BF5"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/longitudeTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="475dp"
+                    android:text="Longitude: "
+                    android:textColor="#5B6BF5"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/returnmenu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="110dp"
+                    android:layout_marginTop="520dp"
+                    android:text="BACK TO MENU"
+                    android:textColor="#5B6BF5"
+                    android:textSize="19sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/btn_submit"
+                    android:layout_width="135dp"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="115dp"
+                    android:layout_marginTop="542dp"
+                    android:backgroundTint="#5B6BF5 "
+                    android:text="SUBMIT"
+                    android:textColor="@color/white"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/btn_save"
+                    android:layout_width="135dp"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="115dp"
+                    android:layout_marginTop="542dp"
+                    android:layout_marginBottom="10dp"
+                    android:backgroundTint="#5B6BF5 "
+                    android:text="SAVE"
+                    android:textColor="@color/white"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+
+            </androidx.cardview.widget.CardView>
+
+            <EditText
+                android:id="@+id/numofpeople"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_margin="0dp"
+                android:visibility="invisible"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

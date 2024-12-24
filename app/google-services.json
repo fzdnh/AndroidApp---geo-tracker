@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "930471642759",
+    "firebase_url": "https://floodwatch-c3a96-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "floodwatch-c3a96",
+    "storage_bucket": "floodwatch-c3a96.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:930471642759:android:8aa1ba0cada83c29919a22",
+        "android_client_info": {
+          "package_name": "com.example.ict652_sulam"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBccelQCjhUSoiluwb60xQlR99S6Ydqtmo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
